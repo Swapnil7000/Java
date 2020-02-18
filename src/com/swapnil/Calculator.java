@@ -8,11 +8,11 @@ public class Calculator {
         char ch;
         Scanner calci = new Scanner(System.in);
         System.out.println("Enter the first number");
-        a = calci.nextFloat();
+        a = calci.nextDouble();
         System.out.println("Enter the operation +,-,*,/,%");
         ch = calci.next().charAt(0);
         System.out.println("Enter the second number");
-        b = calci.nextFloat();
+        b = calci.nextDouble();
         switch (ch)
         {
             case '+': System.out.println("Sum is "+(a+b));
