@@ -9,5 +9,7 @@ public class MyStr {
         System.out.println("Enter the string:");
         str=myName.nextLine();
         System.out.println("Your name is "+str);
+        myName.close();
+        
     }
 }

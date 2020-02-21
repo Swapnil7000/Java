@@ -10,5 +10,6 @@ public class MySum {
         a = mySum.nextInt();
         b=mySum.nextInt();
         System.out.println("Sum is "+(a+b));
+        mySum.close();
     }
 }

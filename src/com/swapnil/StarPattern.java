@@ -11,6 +11,7 @@ public class StarPattern {
         Scanner star = new Scanner(System.in);
         r = star.nextInt();
         SquarePattern(r);
+        star.close();
     }
     public static void SquarePattern(int rows)
     {

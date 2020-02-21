@@ -13,6 +13,7 @@ public class Operators {
         b*=2.5;
         System.out.println("a increamented by 2 is:"+a);
         System.out.println(b);
+        in.close();
     }
 }
 

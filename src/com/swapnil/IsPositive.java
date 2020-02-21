@@ -20,5 +20,6 @@ public class IsPositive {
         {
             System.out.println("Number is negative");
         }
+        no.close();
     }
 }

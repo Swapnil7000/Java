@@ -8,6 +8,7 @@ public class table {
         int i,n;
         Scanner in = new Scanner(System.in);
         n=in.nextInt();
+        in.close();
         for(i=1;i<=10;i++)
         {
            System.out.println( n*i);

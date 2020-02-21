@@ -12,6 +12,7 @@ public class StockAvg {
         double Total=0,Qty=0,Avg;
         double []stockPrize =new double[e] ;
         double []stockQty=new double[e];
+        stock.close();
         System.out.println("Enter the share prize and share Quantity respectively");
         for (i=0;i<e;i++)
         {

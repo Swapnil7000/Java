@@ -17,5 +17,6 @@ public class MyInt {
         {
             System.out.println("You cannot vote");
         }
+        myAge.close();
     }
 }

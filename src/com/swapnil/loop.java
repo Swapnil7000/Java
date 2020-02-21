@@ -18,6 +18,7 @@ public class loop {
 
             System.out.println();
         }
+        loop.close();
 
     }
 }

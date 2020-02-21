@@ -21,6 +21,6 @@ public class GradeCalculator {
             System.out.println("You missed the exam by " + (35-total)+" marks");
         }
         System.out.println("You scored "+(total)+" marks");
-
+        gpa.close();
     }
 }
