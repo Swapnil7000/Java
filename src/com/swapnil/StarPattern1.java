@@ -16,9 +16,10 @@ public class StarPattern1 {
         System.out.println("Enter the number of rows:");
         Scanner star= new Scanner(System.in);
         r = star.nextInt();
-        StarPattern1(r);
+        StarPattern(r);
+        star.close();
     }
-    public static void StarPattern1(int rows)
+    public static void StarPattern(int rows)
     {   int i,j;
         for(i=1;i<=rows;i++)
         {
