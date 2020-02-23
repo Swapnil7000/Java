@@ -21,6 +21,36 @@ public class GradeCalculator {
             System.out.println("You missed the exam by " + (35-total)+" marks");
         }
         System.out.println("You scored "+(total)+" marks");
+        System.out.print("Your grade is ");
+        if(total>=90 && total<=100)
+        {
+            System.out.print("A+");
+        }
+        else if(total>=80 && total<90)
+        {
+            System.out.print("A");
+        }
+        else if(total>=70 && total<80)
+        {
+            System.out.print("B");
+        }
+        else if(total>=60 && total<70)
+        {
+            System.out.print("C");
+        }
+        else if(total<=60 && total>50)
+        {
+            System.out.print("D");
+        }
+        else if(total>=35 && total<=50)
+        {
+            System.out.print("E");
+        }
+        else
+        {
+            System.out.print("F");
+        }
+        
         gpa.close();
     }
 }
