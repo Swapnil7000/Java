@@ -7,5 +7,10 @@ class Array2{
         {
             System.out.println(Myarray[index]);
         }
+        System.out.println("Array elements are ");//By another method
+        for(int element:Myarray)
+        {
+            System.out.println(element);
+        }
     }
 }
