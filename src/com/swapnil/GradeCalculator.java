@@ -38,11 +38,11 @@ public class GradeCalculator {
         {
             System.out.print("C");
         }
-        else if(total<=60 && total>50)
+        else if(total<60 && total>=50)
         {
             System.out.print("D");
         }
-        else if(total>=35 && total<=50)
+        else if(total>=35 && total<50)
         {
             System.out.print("E");
         }
