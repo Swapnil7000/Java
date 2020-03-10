@@ -6,7 +6,7 @@
     * * *
    * * * *
   * * * * *   */
-package com.swapnil;
+package src.com.swapnil;
 
 import java.util.Scanner;
 class StarPattern3{

@@ -1,4 +1,4 @@
-package com.swapnil;
+package src.com.swapnil;
 class Array1{
     public static void main(String[]args) {
         int []myArray1={12,23,34,45,56};

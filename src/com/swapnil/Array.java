@@ -1,4 +1,4 @@
-package com.swapnil;
+package src.com.swapnil;
 
 class Array{
 

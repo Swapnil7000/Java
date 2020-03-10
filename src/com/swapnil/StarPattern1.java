@@ -5,7 +5,7 @@
         12345
  To print the pattern like this
  */
-package com.swapnil;
+package src.com.swapnil;
 
 import java.util.Scanner;
 

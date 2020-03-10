@@ -1,4 +1,4 @@
-package com.swapnil;
+package src.com.swapnil;
 
 public class Swapnil {
     public static void main(String[] args)

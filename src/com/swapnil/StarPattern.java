@@ -1,5 +1,5 @@
 //To print the square pattern
-package com.swapnil;
+package src.com.swapnil;
 
 import java.util.Scanner;
 

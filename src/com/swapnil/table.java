@@ -1,5 +1,5 @@
 // To print table of any number
-package com.swapnil;
+package src.com.swapnil;
 
 import java.util.Scanner;
 public class table {
